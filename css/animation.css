@@ -1,0 +1,25 @@
+@keyframes Dima{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(100px);
+    }
+}
+.animnation{
+    background-color: rgb(223, 207, 71);
+    width: 200px;
+    height: 200px;
+    animation-name: Dima;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-iteration-count: alternate;
+    animation-direction: alternate;
+}
+.animnation:hover{
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+    background-color: tomato;
+    
+}

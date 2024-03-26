@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.header {
+    height: 100px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 86px;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_menu {
+    margin-left: 40px;
+    width: 1100px;
+position: relative;
+}
+
+.nav_item {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.text_nav {
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    transition: .1s ease-in-out;
+
+}
+
+.text_nav:hover {
+    color: #a85d12;
+    font-size: 2.5rem;
+}
+
+.down {
+   width: 25px;
+   height: 25px;
+}
+
+.phone img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+
+}
+
+.phone a {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.button {
+    padding: 10px 70px;
+    background-color:   #094f63;
+    margin-left: 50px;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+}
+
+.button:hover {
+    background-color:  #438b9e;
+    transform: rotate(360deg) scale(1.2);
+
+}
+
+.btn {
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.picture img {
+    width: 100%;
+    height: 870px;
+}
+
+.container1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+
+}
+
+.head_text {
+    font-size: 5.6rem;
+    font-weight: 300;
+    font-family: 'Montserrat';
+    margin-top: 100px;
+    text-align: center;
+}
+
+.line_cars {
+    width: 1900px;
+    height: 134px;
+    margin-top: 60px;
+}
+
+.line_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.car_card {
+    width: 200px;
+    height: 200px;
+    transition: .2s ease-in-out;
+    margin-right: 30px;
+}
+
+.card_img img {
+    width: 188px;
+    height: 123px;
+
+}
+
+.text p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.text h1 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+
+.text {
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+.car_card:hover {
+    opacity: .6;
+    transform: scale(1.1);
+    color: 
+}
+
+.dotes {
+    background-image: radial-gradient(circle, #666 1px, transparent 0);
+    width: 2px;
+    background-repeat: repeat-y;
+    background-size: 100% 10px;
+}
+
+.line {
+    width: 1740px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-top: 173px;
+    margin-left: 70px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 1840px;
+}
+
+.car_swipper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.car_card2 {
+    background-image: url(../img/image_b.webp);
+    padding: 0 3.125vw 5rem;
+    margin-top: 40px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+}
+.car_card3{
+    padding: 0 3.125vw 5rem;
+    margin-top: 40px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    background-image: url('../img/image_a.webp');
+}
+.car_card4{
+    padding: 0 3.125vw 5rem;
+    margin-top: 40px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    background-image: url('../img/image_c.webp');
+}
+.car_card5{
+    padding: 0 3.125vw 5rem;
+    margin-top: 40px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    background-image: url('../img/image_d.webp');
+}
+
+.info {
+    width: 678px;
+    height: 395px;
+}
+
+.text_group {
+    display: flex;
+    margin-bottom: 3rem;
+    position: relative;
+    color: #fff;
+}
+
+.name {
+    background: #C78E66;
+    font-size: 4rem;
+    top: 20px;
+    padding: 2rem;
+    width: 17rem;
+    height: 14rem;
+    text-align: center;
+    font-family: 'Montserrat';
+
+}
+
+.price {
+    position: relative;
+    top: 140px;
+    left: 54px;
+}
+
+.price_text {
+    font-size: 3.6rem;
+    font-family: 'Montserrat'
+}
+
+h4 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Montserrat'
+}
+
+.spec {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 2.5rem 0 19rem;
+}
+
+.item {
+    width: 170px;
+    height: 81px;
+}
+
+.text-spec {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    font-size: 1.9rem;
+    font-family: 'Montserrat'
+}
+
+.num {
+    font-size: 3.6rem;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.sep {
+    width: 1px;
+    height: auto;
+    margin: 0 1rem;
+    align-self: stretch;
+    background: rgba(255, 255, 255)
+}
+
+.carImg img {
+    height: 481px;
+    width: 686px;
+}
+.carImg5 img{
+    height: 481px;
+    width: 720px;
+    position: relative;
+    top: 70px;
+    left: 4px;
+}
+
+.carImg {
+    position: relative;
+    top: 70px;
+    left: 4px;
+}
+
+.btn-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn1 {
+    min-width: auto;
+    width: 25%;
+    color: #fff;
+    background: #C78E66;
+    border: 1px solid #C78E66;
+    padding: 20px 8.5rem;
+    margin-right: 30px;
+    transition: .2s ease-in;
+}
+
+.btn2 {
+    min-width: auto;
+    width: 25%;
+    color: #fff;
+    background: #C78E66;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 19px 7.5rem;
+    transition: .2s ease-in;
+}
+
+.btn_text1 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.btn_text2 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.btn1:hover{
+    background-color: #FF9966;
+    transform: scale(1.1);
+}
+.btn2:hover{
+    transform: scale(1.1);
+}
+.carImg2 img{
+    width: 695px;
+    height: 480px;
+}
+.carImg2{
+    position: relative;
+    top: 61px;
+}
+.about_section{
+    background-image: url('../img/about.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding-bottom: 10rem;
+   line-height: 1.4;
+   color: #fff;
+   font-family: 'Montserrat';
+   margin-top: 7rem;
+}
+.container3{
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding: 65px 40px;
+}
+.upper_text  {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5.6rem;
+    font-weight: 400; 
+    margin-top: 30px;
+}
+
+.info_about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 91px;
+   
+}
+
+.item_about img{
+    width: 424px;
+    height: 246px;
+    border-radius: 30px;
+    opacity: 0.6;
+    margin-left: 3rem;
+    
+}
+.item_about:nth-child(2){
+    padding-left: 23rem;
+    padding-right: 12rem
+}
+
+.title_text{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+    width: 600px;
+}
+.text_ab{
+    font-size: 2rem;
+}
+.text_group2 p{
+  font-size: 1.8rem;  
+}
+.line_about{
+    height: 191px;
+    width: 2px;
+    background: #C78E66;
+    margin-right: 5rem;
+}
+.btn_about{
+    min-width: auto;
+    
+    color: #fff;
+    background: transparent;
+    border: 1px solid  #C78E66;
+    color:  #C78E66;
+    
+    transition: .2s ease-in-out;
+    margin-top: 6rem;
+}
+.btn_about p{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+    color: #C78E66;
+    padding: 20px 20px;
+}
+.btn_about:hover{
+    transform: scale(1.1);
+}
+.news{
+    position: relative;
+    padding: 8rem 0;
+    background-color: #181B1D;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+.container4{
+    margin-right: auto;
+    margin-left: auto;
+   position: relative;
+    padding: 0 4vw;
+   
+}
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left img{
+    width: 25px;
+    height: 14px;
+    position: absolute;
+    top: 55px;
+}
+.right img{
+    width: 25px;
+    height: 14px;
+    position: absolute;
+    top: 55px;
+    left: 149px
+}
+.text_center h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5.6rem;
+    font-weight: 400; 
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.link_news{
+    margin-top: 2rem;
+    color: #C78E66;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    transition: .2s ease-in;
+}
+.link_news:hover{
+    opacity: .8;
+}
+.post_slider{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 7rem;
+}
+.post_slider img{
+    width: 510px;
+    height: 320px;
+    transition: .2s ease;
+}
+.post_slider img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+.card_news img{
+    width: 510px;
+    height: 320px;
+}
+.post_title p{
+    width: 400px;
+    font-size: 2.4rem;
+    transition: .1s ease-in;
+}
+.post_date p{
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+}
+.post_title p:hover{
+    color: #C78E66;
+}
+.line_main{
+    border: 1px solid #474A51;
+}
+.footer{
+    background: #181B1D;
+    color: #fff;
+    font-family: 'Montserrat';
+    position: relative;
+}
+.container5{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+.left_footer{
+    margin-left: 8rem;
+    
+}
+.phone_footer p{
+    color: #fff;
+    font-size: 2rem;
+    transition: .2s ease-in-out;
+    margin-left: 4rem;
+}
+.phone_footer :hover{
+    opacity: 0.6;
+}
+.phone_footer img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 80px;
+    top: 48px;
+}
+.footer_security p {
+    color: #fff;
+    font-size: 2rem;
+   margin-top: 2rem;
+}
+.center_footer{
+    font-size: 2rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+.center_footer span::before{
+     content: '©';
+     margin-right: 5px;
+}
+.right_footer{
+    margin-right: 10rem;
+}
+.right_footer img{
+    width: 30px;
+    height: 30px;
+    margin-left: 1.5rem;
+    transition: .2s ease-in-out;
+}
+.right_footer img:hover{
+    opacity: 0.6;
+    transform: scale(1.2);
+    
+}
